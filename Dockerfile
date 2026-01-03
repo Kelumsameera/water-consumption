@@ -1,6 +1,7 @@
-FROM python:3.10
+# Best as of 2026: Use official Python image for simplicity and security
+FROM python:3.12-windowsservercore-ltsc2022
 
-WORKDIR /app
+WORKDIR C:/app
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
