@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows/python:3.11-windowsservercore-ltsc2019
+FROM mcr.microsoft.com/windows/python:3.11-windowsservercore
 
 WORKDIR /app
 
