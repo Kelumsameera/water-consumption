@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows/python:3.10
+FROM python:3.10-windowsservercore-ltsc2022
 
 WORKDIR /app
 
