@@ -1,4 +1,4 @@
-FROM python:3.10-windowsservercore-ltsc2022
+FROM python:3.10
 
 WORKDIR /app
 
