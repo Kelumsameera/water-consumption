@@ -5,7 +5,7 @@ pipeline {
     DOCKER = "C:\\Program Files\\Docker\\docker\\docker.exe"
     IMAGE_NAME = "fy600-python-api"
     CONTAINER_NAME = "fy600-api"
-    PORT = "8000"
+    PORT = "3000"
   }
 
   stages {
